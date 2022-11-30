@@ -6,7 +6,7 @@ import argparse
 def get_params():
     args = argparse.ArgumentParser()
     args.add_argument(
-        "-data", "--dataset", default="NELL-One", type=str,choices=['NELL-One','COVID19-One']
+        "-data", "--dataset", default="NELL-One", type=str,choices=['NELL-One','COVID19-One','Wiki-One']
     )
     args.add_argument(
         "-path", "--data_path", default="./NELL", type=str
